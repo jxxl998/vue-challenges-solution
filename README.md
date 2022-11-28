@@ -1,6 +1,4 @@
-# vue-challenges-solution
-
-# Challenges
+# Vue.js Challenges
 
 ## warm
 
@@ -20,7 +18,7 @@
 | prevent event propagation |        |
 | losing-reactivity         |        |
 | Capitalize                |        |
-| Prop Validation           |        |
+| Prop Validation           | ✅     |
 | writable-computed         |        |
 | watch family              |        |
 | shallow ref               |        |
@@ -37,11 +35,11 @@
 | useLocalStorage                |        |
 | v-focus                        |        |
 | v-debounce-click               |        |
-| functional component           |        |
+| functional component           | ✅     |
 | render function[h()]           |        |
 | Key Modifiers                  |        |
 | useMouse                       |        |
-| Global CSS                     |        |
+| Global CSS                     | ✅     |
 | Raw API                        |        |
 | effectScope API                |        |
 
