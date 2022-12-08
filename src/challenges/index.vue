@@ -6,11 +6,12 @@
 import renderFunctionVue from './components/render-function.vue';
 
 import preventEventPropagation from './event-handling/prevent-event- propagation.vue';
+import keyModifiers from './event-handling/key-modifiers.vue';
 </script>
 
 <template>
-  <h3>preventEventPropagation</h3>
-  <component :is="preventEventPropagation" />
+  <h3>keyModifiers</h3>
+  <component :is="keyModifiers" />
 </template>
 
 <style scoped>
