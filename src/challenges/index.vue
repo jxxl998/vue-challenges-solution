@@ -4,20 +4,13 @@
 
 // import functionalComponentVue from './components/functional-component.vue';
 import renderFunctionVue from './components/render-function.vue';
+
+import preventEventPropagation from './event-handling/prevent-event- propagation.vue';
 </script>
 
 <template>
-  <!-- <h3>dynamic-css-values</h3>
-  <dynamicCssValuesVue /> -->
-
-  <!-- <h3>global-css</h3>
-  <globalCssVue /> -->
-
-  <!-- <h3>functional-component</h3>
-  <functionalComponentVue /> -->
-
-  <h3>render-function</h3>
-  <renderFunctionVue />
+  <h3>preventEventPropagation</h3>
+  <component :is="preventEventPropagation" />
 </template>
 
 <style scoped>
